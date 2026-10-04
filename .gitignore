@@ -1,0 +1,7 @@
+# sdkconfig holds your Wi-Fi password
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+frontend/node_modules/
+frontend/dist/

@@ -1,0 +1,13 @@
+menu "Dashboard Wi-Fi"
+    config WIFI_SSID
+        string "Wi-Fi SSID"
+        default "myssid"
+    config WIFI_PASSWORD
+        string "Wi-Fi password"
+        default "mypassword"
+    config LED_GPIO
+        int "Onboard RGB LED GPIO"
+        default 48
+        help
+            48 on most ESP32-S3-DevKitC-1, 38 on DevKitC-1 v1.1. Check the silkscreen near the LED.
+endmenu
